@@ -2,6 +2,7 @@ number_str = input("введите 4-х значное число: ")
 
 number = int(number_str)
 
+
 number1 = number // 1000
 number2 = (number % 1000) // 100
 number3 = (number % 100) // 10
