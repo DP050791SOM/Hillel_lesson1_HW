@@ -1,6 +1,5 @@
 lst = []
 print(lst)
-
 s = len(lst)
 if not lst:
     mid = s // 2
@@ -17,9 +16,6 @@ else:
     lst1 = lst[mid:]
     lst2 = lst[:mid]
     print('Список с четным колличеством элементов')
-
-
-
 print(lst1)
 print(lst2)
 
