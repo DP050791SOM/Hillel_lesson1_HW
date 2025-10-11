@@ -1,4 +1,5 @@
-lst = []
+lst = [5,]
+lst3 = []
 print(lst)
 s = len(lst)
 if not lst:
@@ -16,6 +17,9 @@ else:
     lst1 = lst[mid:]
     lst2 = lst[:mid]
     print('Список с четным колличеством элементов')
-print(lst1)
-print(lst2)
+
+lst3.append(lst1)
+lst3.append(lst2)
+print(lst3)
+
 
