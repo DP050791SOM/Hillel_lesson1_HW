@@ -1,14 +1,6 @@
-lst = [9, 0, 7, 31, 0, 45, 32, 45, 0, 45, 0, 0, 35]
+lst = [9, 0, 7, 31, 0, 45, 32, 45, 0, 45, 0, 0, 35,53,33]
 print(lst)
-elements = len(lst)
-list1 = []
-y= 0
-while y >= 0:
-    x = lst[y]
-    y=y+2
-    list1.append(x)
-    if y >= elements - 1:
-        break
+list1 = lst[::2]
 
 print('элементы с парными индексами - ',list1)
 z = lst[-1]
