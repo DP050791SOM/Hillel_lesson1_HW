@@ -11,6 +11,7 @@ def find_unique_value(numbers: List[int]) -> Optional[int]:
         if counts[num] == 1:
             return num
     return None
+
 print(find_unique_value([1, 1, 2, 1, 1]))
 print(find_unique_value([4, 5, 4, 4, 4]))
 print(find_unique_value([7, 7, 7]))
